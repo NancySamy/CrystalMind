@@ -76,7 +76,3 @@ E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Api\obj\Debug\net6.0\C
 E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Api\obj\Debug\net6.0\ref\CrystalMindTask.Api.dll
 E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Api\obj\Debug\net6.0\CrystalMindTask.Api.pdb
 E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Api\obj\Debug\net6.0\CrystalMindTask.Api.genruntimeconfig.cache
-E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Api\bin\Debug\net6.0\Humanizer.dll
-E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Api\bin\Debug\net6.0\Mono.TextTemplating.dll
-E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Api\bin\Debug\net6.0\System.CodeDom.dll

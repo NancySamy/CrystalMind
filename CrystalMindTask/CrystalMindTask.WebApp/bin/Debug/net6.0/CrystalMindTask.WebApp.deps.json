@@ -640,8 +640,7 @@
       "CrystalMindTask.Api/1.0.0": {
         "dependencies": {
           "CrystalMindTask.Application": "1.0.0",
-          "CrystalMindTask.Dtos": "1.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0-preview.4.22229.2"
+          "CrystalMindTask.Dtos": "1.0.0"
         },
         "runtime": {
           "CrystalMindTask.Api.dll": {}

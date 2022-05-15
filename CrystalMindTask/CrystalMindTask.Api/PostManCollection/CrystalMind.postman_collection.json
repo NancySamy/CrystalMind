@@ -1,0 +1,114 @@
+{
+	"info": {
+		"_postman_id": "89930d11-92fd-4ffc-85e2-1d7bce703cd2",
+		"name": "CrystalMind",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "AddCustomer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"customerFristName\":\"Nancy\",\r\n    \"customerLastName\": \"Samy\",\r\n    \"customerGender\":\"M\",\r\n    \"customerDOB\": \"2020-11-30\",\r\n    \"customerEmail\": \"nancysamy900@gmail.com\",\r\n \"addresses\":[{\r\n            \"StreetName\": \"Gawahergy\",\r\n            \"FlatNo\": 1,\r\n            \"FloorNo\": 1\r\n        }]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7122/api/Customer/AddCustomer",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7122",
+					"path": [
+						"api",
+						"Customer",
+						"AddCustomer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateCustomer",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"customerFristName\":\"NancyUpdated\",\r\n    \"customerLastName\": \"Samy\",\r\n    \"customerGender\":\"M\",\r\n    \"customerDOB\": \"2020-11-30\",\r\n    \"customerEmail\": \"nancysamy900@gmail.com\",\r\n \"addresses\":[{\r\n            \"StreetName\": \"Gawahergy\",\r\n            \"FlatNo\": 2,\r\n            \"FloorNo\": 1\r\n        }]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7199/api/Customer/UpdateCustomer/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7199",
+					"path": [
+						"api",
+						"Customer",
+						"UpdateCustomer",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteCustomer",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7199/api/Customer/DeleteCustomer/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7199",
+					"path": [
+						"api",
+						"Customer",
+						"DeleteCustomer",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCustomers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7199/api/Customer/GetCustomer",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7199",
+					"path": [
+						"api",
+						"Customer",
+						"GetCustomer"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
