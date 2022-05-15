@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "sy65g3Ma93jBipUKooG0hALyaXEyeFRHccZ0l0Xejxs=",
+  "Source": "CrystalMindTask.Api",
+  "BasePath": "_content/CrystalMindTask.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

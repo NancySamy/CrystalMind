@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "504b4fc4-c32c-40c8-8bf8-21280fba2ae8": {
+      "ProjectGuid": "504b4fc4-c32c-40c8-8bf8-21280fba2ae8",
+      "DisplayName": "CrystalMindTask",
+      "ColorIndex": 0
+    },
+    "d53f7a75-93f1-4f88-b52c-97b690ddba1f": {
+      "ProjectGuid": "d53f7a75-93f1-4f88-b52c-97b690ddba1f",
+      "DisplayName": "CrystalMindTask.Domain",
+      "ColorIndex": 1
+    },
+    "7f672d8f-bb0f-4d87-85ba-7c8976f05dcd": {
+      "ProjectGuid": "7f672d8f-bb0f-4d87-85ba-7c8976f05dcd",
+      "DisplayName": "CrystalMindTest.infrastructure",
+      "ColorIndex": 2
+    },
+    "5e6adaef-4ed8-4108-b305-dc7bcd7b007d": {
+      "ProjectGuid": "5e6adaef-4ed8-4108-b305-dc7bcd7b007d",
+      "DisplayName": "CrystalMindTask.Application",
+      "ColorIndex": 3
+    },
+    "9790342d-1a5e-46e4-9b4f-07e9b1af0ccb": {
+      "ProjectGuid": "9790342d-1a5e-46e4-9b4f-07e9b1af0ccb",
+      "DisplayName": "CrystalMindTask.WebApp",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "e2c9f06d-dacc-44c6-a71b-19e8ded9bbfa": {
+      "ProjectGuid": "e2c9f06d-dacc-44c6-a71b-19e8ded9bbfa",
+      "DisplayName": "CrystalMindTask.Api",
+      "ColorIndex": 5
+    },
+    "f8338480-1fc8-43f3-9e0b-843503c024d7": {
+      "ProjectGuid": "f8338480-1fc8-43f3-9e0b-843503c024d7",
+      "DisplayName": "CrystalMindTask.Repo",
+      "ColorIndex": 6
+    },
+    "0b7ea45b-7287-40a9-af0d-b81d24abaa25": {
+      "ProjectGuid": "0b7ea45b-7287-40a9-af0d-b81d24abaa25",
+      "DisplayName": "CrystalMindTask.Dtos",
+      "ColorIndex": 7
+    },
+    "e4e5900f-98f7-412b-b4d6-66217ad4a531": {
+      "ProjectGuid": "e4e5900f-98f7-412b-b4d6-66217ad4a531",
+      "DisplayName": "CrystalMind.WebApplication",
+      "ColorIndex": 8
+    },
+    "c9ada3ff-cdc9-4646-b404-cba8760392cd": {
+      "ProjectGuid": "c9ada3ff-cdc9-4646-b404-cba8760392cd",
+      "DisplayName": "CrystalMindTask.WebApplication",
+      "ColorIndex": 9
+    }
+  },
+  "NextColorIndex": 10
+}

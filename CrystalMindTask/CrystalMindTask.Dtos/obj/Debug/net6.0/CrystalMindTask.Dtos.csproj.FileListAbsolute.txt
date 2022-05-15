@@ -1,0 +1,12 @@
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Dtos\bin\Debug\net6.0\CrystalMindTask.Dtos.deps.json
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Dtos\bin\Debug\net6.0\CrystalMindTask.Dtos.dll
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Dtos\bin\Debug\net6.0\ref\CrystalMindTask.Dtos.dll
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Dtos\bin\Debug\net6.0\CrystalMindTask.Dtos.pdb
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Dtos\obj\Debug\net6.0\CrystalMindTask.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Dtos\obj\Debug\net6.0\CrystalMindTask.Dtos.AssemblyInfoInputs.cache
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Dtos\obj\Debug\net6.0\CrystalMindTask.Dtos.AssemblyInfo.cs
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Dtos\obj\Debug\net6.0\CrystalMindTask.Dtos.csproj.CoreCompileInputs.cache
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Dtos\obj\Debug\net6.0\CrystalMindTask.Dtos.dll
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Dtos\obj\Debug\net6.0\ref\CrystalMindTask.Dtos.dll
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Dtos\obj\Debug\net6.0\CrystalMindTask.Dtos.pdb
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Dtos\obj\Debug\net6.0\CrystalMindTask.Dtos.csproj.AssemblyReference.cache

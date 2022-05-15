@@ -1,0 +1,14 @@
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Domain\bin\Debug\net6.0\CrystalMindTask.Domain.deps.json
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Domain\bin\Debug\net6.0\CrystalMindTask.Domain.runtimeconfig.json
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Domain\bin\Debug\net6.0\CrystalMindTask.Domain.dll
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Domain\bin\Debug\net6.0\ref\CrystalMindTask.Domain.dll
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Domain\bin\Debug\net6.0\CrystalMindTask.Domain.pdb
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Domain\obj\Debug\net6.0\CrystalMindTask.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Domain\obj\Debug\net6.0\CrystalMindTask.Domain.AssemblyInfoInputs.cache
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Domain\obj\Debug\net6.0\CrystalMindTask.Domain.AssemblyInfo.cs
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Domain\obj\Debug\net6.0\CrystalMindTask.Domain.csproj.CoreCompileInputs.cache
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Domain\obj\Debug\net6.0\CrystalMindTask.Domain.dll
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Domain\obj\Debug\net6.0\ref\CrystalMindTask.Domain.dll
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Domain\obj\Debug\net6.0\CrystalMindTask.Domain.pdb
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Domain\obj\Debug\net6.0\CrystalMindTask.Domain.genruntimeconfig.cache
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Domain\obj\Debug\net6.0\CrystalMindTask.Domain.csproj.AssemblyReference.cache

@@ -1,0 +1,15 @@
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Repo\bin\Debug\net6.0\CrystalMindTask.Repo.deps.json
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Repo\bin\Debug\net6.0\CrystalMindTask.Repo.dll
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Repo\bin\Debug\net6.0\ref\CrystalMindTask.Repo.dll
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Repo\bin\Debug\net6.0\CrystalMindTask.Repo.pdb
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Repo\bin\Debug\net6.0\CrystalMindTask.Domain.dll
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Repo\bin\Debug\net6.0\CrystalMindTask.Domain.pdb
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Repo\obj\Debug\net6.0\CrystalMindTask.Repo.csproj.AssemblyReference.cache
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Repo\obj\Debug\net6.0\CrystalMindTask.Repo.GeneratedMSBuildEditorConfig.editorconfig
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Repo\obj\Debug\net6.0\CrystalMindTask.Repo.AssemblyInfoInputs.cache
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Repo\obj\Debug\net6.0\CrystalMindTask.Repo.AssemblyInfo.cs
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Repo\obj\Debug\net6.0\CrystalMindTask.Repo.csproj.CoreCompileInputs.cache
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Repo\obj\Debug\net6.0\CrystalMindTask.Repo.csproj.CopyComplete
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Repo\obj\Debug\net6.0\CrystalMindTask.Repo.dll
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Repo\obj\Debug\net6.0\ref\CrystalMindTask.Repo.dll
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Repo\obj\Debug\net6.0\CrystalMindTask.Repo.pdb
