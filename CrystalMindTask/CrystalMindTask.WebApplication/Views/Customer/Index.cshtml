@@ -1,4 +1,4 @@
-﻿@model IEnumerable<CrystalMindTask.Dtos.Models.CustomerRequestDto>
+﻿@model IEnumerable<CrystalMindTask.Dtos.Models.CustomerDto>
 
 @{
     ViewData["Title"] = "Index";
@@ -12,6 +12,9 @@
 <table class="table">
     <thead>
         <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CustomerID)
+            </th>
             <th>
                 @Html.DisplayNameFor(model => model.CustomerFristName)
             </th>
@@ -33,6 +36,9 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerID)
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.CustomerFristName)
             </td>

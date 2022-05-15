@@ -9,46 +9,47 @@ namespace CrystalMindTask.WebApplication.Controllers
 {
     public class CustomerController : Controller
     {
-       // private ConfigURLs _configURLs;
-     //   private IConfiguration _config;
-        //public CustomerController(IConfiguration configuration)
-        //{
-        //    _config = configuration;
-            
-        //}
+        private ConfigURLs _configURLs;
+        private IConfiguration _config;
+        public CustomerController(IConfiguration configuration)
+        {
+            _config = configuration;
+
+        }
         // GET: CustomerController
         public async Task<ActionResult> Index()
         {
-            //var configURLs = new ConfigURLs();
-            //_config.GetSection("ConfigURLs").Bind(configURLs);
-            List<CustomerRequestDto> customers = new List<CustomerRequestDto>();
-            //using (var client = new HttpClient())
-            //{
-            //    //Passing service base url
-            //    client.BaseAddress = new Uri(_configURLs.BaseURL);
-            //    client.DefaultRequestHeaders.Clear();
-            //    //Define request data format
-            //    client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-            //    //Sending request to find web api REST service resource GetAllEmployees using HttpClient
-            //    HttpResponseMessage Res = await client.GetAsync(_configURLs.GetCustomerUri);
-            //    //Checking the response is successful or not which is sent using HttpClient
-            //    if (Res.IsSuccessStatusCode)
-            //    {
-            //        //Storing the response details recieved from web api
-            //        var Response = Res.Content.ReadAsStringAsync().Result;
-            //        //Deserializing the response recieved from web api and storing into the Employee list
-            //        customers = JsonConvert.DeserializeObject<List<CustomerRequestDto>>(Response);
-            //    }
-            //returning the employee list to view
-            customers.Add(new CustomerRequestDto()
+            var configURLs = new ConfigURLs();
+            configURLs.BaseURL = _config["ConfigURLs:BaseURL"];
+            configURLs.GetCustomerUri = _config["ConfigURLs:GetCustomerUri"];
+            GetCustomerResponseDto responseCustomers = new GetCustomerResponseDto();
+            using (var client = new HttpClient())
             {
-                CustomerFristName = "Nancy",
-                CustomerLastName = "Samy",
-                CustomerEmail = "ns900@gmail.com",
-                CustomerDOB = DateTime.Now,
-                CustomerGender = 'F'});
-       // }
-                return View(customers);
+                //Passing service base url
+                client.BaseAddress = new Uri(configURLs.BaseURL);
+                client.DefaultRequestHeaders.Clear();
+                //Define request data format
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                //Sending request to find web api REST service resource GetAllEmployees using HttpClient
+                HttpResponseMessage Res = await client.GetAsync(configURLs.GetCustomerUri);
+                //Checking the response is successful or not which is sent using HttpClient
+                if (Res.IsSuccessStatusCode)
+                {
+                    //Storing the response details recieved from web api
+                    var Response = Res.Content.ReadAsStringAsync().Result;
+                    //Deserializing the response recieved from web api and storing into the Employee list
+                    responseCustomers = JsonConvert.DeserializeObject<GetCustomerResponseDto>(Response);
+                }
+                //returning the employee list to view
+            //    customers.Add(new CustomerRequestDto()
+            //{
+            //    CustomerFristName = "Nancy",
+            //    CustomerLastName = "Samy",
+            //    CustomerEmail = "ns900@gmail.com",
+            //    CustomerDOB = DateTime.Now,
+            //    CustomerGender = 'F'});
+        }
+                return View(responseCustomers.CustomersList);
 
     }
 
