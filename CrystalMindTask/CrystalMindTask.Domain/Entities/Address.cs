@@ -12,6 +12,7 @@ namespace CrystalMindTask.Domain.Entities
         public string StreetName { get; set; } = null!;
         public int FlatNo { get; set; }
         public int FloorNo { get; set; }
+        public int CustomerId { get; set; }
         public Customer Customer { get; set; } = null!;
     }
 }

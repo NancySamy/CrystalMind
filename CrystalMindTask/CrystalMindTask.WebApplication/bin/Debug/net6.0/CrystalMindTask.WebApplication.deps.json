@@ -2160,8 +2160,7 @@
         "dependencies": {
           "CrystalMindTask.Application": "1.0.0",
           "CrystalMindTask.Dtos": "1.0.0",
-          "CrystalMindTest.infrastructure": "1.0.0",
-          "Swashbuckle.AspNetCore": "6.3.0"
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0-preview.4.22229.2"
         },
         "runtime": {
           "CrystalMindTask.Api.dll": {}
@@ -2200,14 +2199,6 @@
         },
         "runtime": {
           "CrystalMindTask.Repo.dll": {}
-        }
-      },
-      "CrystalMindTest.infrastructure/1.0.0": {
-        "dependencies": {
-          "CrystalMindTask.Repo": "1.0.0"
-        },
-        "runtime": {
-          "CrystalMindTest.infrastructure.dll": {}
         }
       }
     }
@@ -3422,11 +3413,6 @@
       "sha512": ""
     },
     "CrystalMindTask.Repo/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "CrystalMindTest.infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

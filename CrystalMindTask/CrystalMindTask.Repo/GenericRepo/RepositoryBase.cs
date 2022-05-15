@@ -49,6 +49,11 @@ namespace CrystalMindTask.Repo
         public void DeleteBy(Expression<Func<T, bool>> expression)
         {
             this.RepositoryContext.Set<T>().RemoveRange(FindByCondition(expression));
+        } 
+        public void DeleteBy(Expression<Func<T, bool>> expression, Expression<Func<T, object>> include)
+        {
+            var list = this.RepositoryContext.Set<T>().Include(include).Where(expression);
+            this.RepositoryContext.Set<T>().RemoveRange(list);
         }
         
     }

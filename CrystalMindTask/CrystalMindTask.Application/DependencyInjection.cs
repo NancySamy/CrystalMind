@@ -1,10 +1,7 @@
 ﻿using CrystalMindTask.Repo;
+using MediatR;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Reflection;
 
 namespace CrystalMindTask.Application
 {
@@ -12,11 +9,10 @@ namespace CrystalMindTask.Application
     {
         public static IServiceCollection AddApplication(this IServiceCollection services)
         {
-            services.AddTransient<ICustomerservice, Customerservice>();
             services.AddTransient<IUnitOfWork, UnitOfWork>();
             services.AddTransient<ICustomerRepository, CustomerRepository>();
             services.AddTransient<IAddressRepository, AddressRepository>();
-
+            services.AddMediatR(Assembly.GetExecutingAssembly());
             return services;
         }
     }

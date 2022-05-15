@@ -1,4 +1,6 @@
-﻿namespace CrystalMindTask.Dtos.Models
+﻿using System.Text.Json.Serialization;
+
+namespace CrystalMindTask.Dtos.Models
 {
     public class GetCustomerResponseDto
     {

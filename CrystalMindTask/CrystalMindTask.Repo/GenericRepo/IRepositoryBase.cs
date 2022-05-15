@@ -16,5 +16,6 @@ namespace CrystalMindTask.Repo
         void Update(T entity);
         void Delete(T entity);
         void DeleteBy(Expression<Func<T, bool>> expression);
+        void DeleteBy(Expression<Func<T, bool>> expression, Expression<Func<T, object>> include);
     }
 }

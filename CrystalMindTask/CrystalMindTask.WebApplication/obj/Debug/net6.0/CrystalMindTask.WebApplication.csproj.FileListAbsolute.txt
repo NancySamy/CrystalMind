@@ -259,19 +259,16 @@ E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.WebApplication\bin\Deb
 E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.WebApplication\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.WebApplication\bin\Debug\net6.0\CrystalMindTask.Domain.dll
 E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.WebApplication\bin\Debug\net6.0\CrystalMindTask.Repo.dll
-E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.WebApplication\bin\Debug\net6.0\CrystalMindTest.infrastructure.dll
 E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.WebApplication\bin\Debug\net6.0\CrystalMindTask.Api.pdb
 E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.WebApplication\bin\Debug\net6.0\CrystalMindTask.Dtos.pdb
 E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.WebApplication\bin\Debug\net6.0\CrystalMindTask.Application.pdb
 E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.WebApplication\bin\Debug\net6.0\CrystalMindTask.Domain.pdb
 E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.WebApplication\bin\Debug\net6.0\CrystalMindTask.Repo.pdb
-E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.WebApplication\bin\Debug\net6.0\CrystalMindTest.infrastructure.pdb
 E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.WebApplication\obj\Debug\net6.0\CrystalMindTask.WebApplication.csproj.AssemblyReference.cache
 E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.WebApplication\obj\Debug\net6.0\CrystalMindTask.WebApplication.GeneratedMSBuildEditorConfig.editorconfig
 E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.WebApplication\obj\Debug\net6.0\CrystalMindTask.WebApplication.AssemblyInfoInputs.cache
 E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.WebApplication\obj\Debug\net6.0\CrystalMindTask.WebApplication.AssemblyInfo.cs
 E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.WebApplication\obj\Debug\net6.0\CrystalMindTask.WebApplication.csproj.CoreCompileInputs.cache
-E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.WebApplication\obj\Debug\net6.0\CrystalMindTask.WebApplication.MvcApplicationPartsAssemblyInfo.cs
 E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.WebApplication\obj\Debug\net6.0\CrystalMindTask.WebApplication.MvcApplicationPartsAssemblyInfo.cache
 E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.WebApplication\obj\Debug\net6.0\CrystalMindTask.WebApplication.RazorAssemblyInfo.cache
 E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.WebApplication\obj\Debug\net6.0\CrystalMindTask.WebApplication.RazorAssemblyInfo.cs
@@ -295,3 +292,4 @@ E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.WebApplication\bin\Deb
 E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.WebApplication\bin\Debug\net6.0\CrystalMindTask.WebApplication.pdb
 E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.WebApplication\obj\Debug\net6.0\CrystalMindTask.WebApplication.csproj.CopyComplete
 E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.WebApplication\obj\Debug\net6.0\CrystalMindTask.WebApplication.genruntimeconfig.cache
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.WebApplication\obj\Debug\net6.0\CrystalMindTask.WebApplication.MvcApplicationPartsAssemblyInfo.cs

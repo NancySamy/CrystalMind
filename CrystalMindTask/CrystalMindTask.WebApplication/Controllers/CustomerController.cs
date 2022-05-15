@@ -40,30 +40,11 @@ namespace CrystalMindTask.WebApplication.Controllers
                     //Deserializing the response recieved from web api and storing into the Employee list
                     responseCustomers = JsonConvert.DeserializeObject<GetCustomerResponseDto>(Response);
                 }
-                //returning the employee list to view
-            //    customers.Add(new CustomerRequestDto()
-            //{
-            //    CustomerFristName = "Nancy",
-            //    CustomerLastName = "Samy",
-            //    CustomerEmail = "ns900@gmail.com",
-            //    CustomerDOB = DateTime.Now,
-            //    CustomerGender = 'F'});
         }
                 return View(responseCustomers.CustomersList);
-
     }
 
-    // GET: CustomerController/Details/5
-    public ActionResult Details(int id)
-        {
-            return View();
-        }
 
-        // GET: CustomerController/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
 
         // POST: CustomerController/Create
         [HttpPost]

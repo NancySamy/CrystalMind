@@ -1,0 +1,6 @@
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Database\bin\Debug\CrystalMindTask.Database.dacpac
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Database\bin\Debug\CrystalMindTask.Database.dll
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Database\bin\Debug\CrystalMindTask.Database.pdb
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Database\obj\Debug\CrystalMindTask.Database.sqlproj.AssemblyReference.cache
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Database\obj\Debug\CrystalMindTask.Database.dll
+E:\InterViews\CrystalMind\CrystalMindTask\CrystalMindTask.Database\obj\Debug\CrystalMindTask.Database.pdb

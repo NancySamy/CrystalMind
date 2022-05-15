@@ -2877,9 +2877,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "CrystalMindTask.Application": "1.0.0",
-          "CrystalMindTask.Dtos": "1.0.0",
-          "CrystalMindTest.infrastructure": "1.0.0",
-          "Swashbuckle.AspNetCore": "6.2.3"
+          "CrystalMindTask.Dtos": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CrystalMindTask.Api.dll": {}
@@ -2944,19 +2942,6 @@
         },
         "runtime": {
           "bin/placeholder/CrystalMindTask.Repo.dll": {}
-        }
-      },
-      "CrystalMindTest.infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "CrystalMindTask.Repo": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/CrystalMindTest.infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CrystalMindTest.infrastructure.dll": {}
         }
       }
     }
@@ -8939,11 +8924,6 @@
       "type": "project",
       "path": "../CrystalMindTask.Repo/CrystalMindTask.Repo.csproj",
       "msbuildProject": "../CrystalMindTask.Repo/CrystalMindTask.Repo.csproj"
-    },
-    "CrystalMindTest.infrastructure/1.0.0": {
-      "type": "project",
-      "path": "../CrystalMindTest.infrastructure/CrystalMindTest.infrastructure.csproj",
-      "msbuildProject": "../CrystalMindTest.infrastructure/CrystalMindTest.infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {

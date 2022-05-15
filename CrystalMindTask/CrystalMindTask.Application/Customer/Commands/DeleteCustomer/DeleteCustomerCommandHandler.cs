@@ -19,7 +19,7 @@ namespace CrystalMindTask.Application.Customer.Commands.DeleteCustomer
         {
             using (_unitOfWork)
             {
-              _unitOfWork.Customer.DeleteBy(c=>c.CustomerID== request.CustomerID);
+              _unitOfWork.Customer.DeleteBy(c=>c.CustomerID== request.CustomerID,c=>c.Addresses);
                 _unitOfWork.Save();
 
                 return new ResponseCustomer() { CustomerID = request.CustomerID };

@@ -25,8 +25,8 @@ namespace CrystalMindTask.Application.Customer.Commands.CreateCustomer
                 var Response = new CustomerResponse();
                 var customerEntity = Map(request);
                 _unitOfWork.Customer.Create(customerEntity!);
-                Response.CustomerID = customerEntity.CustomerID;
                 _unitOfWork.Save();
+                Response.CustomerID = customerEntity.CustomerID;
                 return Response;
             }
         }

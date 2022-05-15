@@ -16,18 +16,20 @@ namespace CrystalMindTask.Api.Controllers
     [Route("api/Customer")]
     public class CustomerController : ControllerBase
     {
-        private ICustomerservice _customerservice;
         private IMediator _mediator;
-        //protected IMediator _mediator => mediator = HttpContext.RequestServices.GetService<IMediator>();
-        public CustomerController(ICustomerservice customerservice, IMediator mediator)
+        public CustomerController(IMediator mediator)
         {
-            _customerservice = customerservice;
             _mediator = mediator;
         }
 
+        /// <summary>
+        /// Method to Add Customer
+        /// </summary>
+        /// <param name="customer">Customer request Dto</param>
+        /// <returns>Response contains CustomerID</returns>
         [HttpPost(Name = "AddCustomer")]
         [Route("AddCustomer")]
-        public  CustomerResponseDto AddCustomer(CustomerRequestDto customer)
+        public CustomerResponseDto AddCustomer(CustomerRequestDto customer)
         {
             var command = new CreateCustomerCommand
             {
@@ -44,14 +46,19 @@ namespace CrystalMindTask.Api.Controllers
                 }).ToList()
             };
 
-            var response =  _customerservice.CreateCustomer(command);
+            var response = _mediator.Send(command);
 
             return new CustomerResponseDto
             {
-                CustomerId = response.CustomerID
+                CustomerId = response.Result.CustomerID
             };
         }
-
+        /// <summary>
+        /// Mthod to Update Customer
+        /// </summary>
+        /// <param name="id">CustomerId</param>
+        /// <param name="customer"></param>
+        /// <returns>Response contains CustomerID</returns>
         [HttpPut(Name = "UpdateCustomer")]
         [Route("UpdateCustomer/{id}")]
         public async Task<CustomerResponseDto> UpdateCustomer([FromRoute] int id, [FromBody] CustomerRequestDto customer)
@@ -79,24 +86,31 @@ namespace CrystalMindTask.Api.Controllers
                 CustomerId = response.CustomerID
             };
         }
+        /// <summary>
+        /// Method to Delete Customer
+        /// </summary>
+        /// <param name="id">Customer ID</param>
+        /// <returns>Response contains CustomerID</returns>
+        [HttpDelete(Name = "DeleteCustomer")]
+        [Route("DeleteCustomer/{id}")]
+        public async Task<CustomerResponseDto> DeleteCustomer([FromRoute] int id)
+        {
+            var command = new DeleteCustomerCommand
+            {
+                CustomerID = id
+            };
 
-        //[HttpDelete(Name = "DeleteCustomer")]
-        //[Route("DeleteCustomer/{id}")]
-        //public async Task<CustomerResponseDto> DeleteCustomer([FromRoute] int id)
-        //{
-        //    var command = new DeleteCustomerCommand
-        //    {
-        //        CustomerID = id
-        //    };
+            var response = await _mediator.Send(command);
 
-        //    var response = await _mediator.Send(command);
-
-        //    return new CustomerResponseDto
-        //    {
-        //        CustomerId = response.CustomerID
-        //    };
-        //}
-
+            return new CustomerResponseDto
+            {
+                CustomerId = response.CustomerID
+            };
+        }
+        /// <summary>
+        /// Method to Get Customers
+        /// </summary>
+        /// <returns>List of Customers Dto</returns>
         [HttpGet(Name = "GetCustomer")]
         [Route("GetCustomer")]
         public async Task<GetCustomerResponseDto> GetCustomer()
